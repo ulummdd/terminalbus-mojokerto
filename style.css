@@ -1,0 +1,576 @@
+body{
+	font-family:"Poppins", sans-serif;
+}
+		.brand-logo img{
+			width: 160px;
+			margin-top:30px;
+		}
+		.container{
+			width:95% !important;
+		}
+		nav{
+			background-color:#fff !important;
+			height:72px !important;
+			line-height:70px !important;
+			box-shadow:0px 0px !important;
+			border-bottom:1px solid #191919;
+		}
+		.nav-admin{
+			background-color:#191919 !important;
+			height:72px !important;
+			line-height:70px !important;
+			box-shadow:0px 0px !important;
+			border-bottom:1px solid #D8E9A8;
+		}
+		nav ul a{
+			color:#191919;
+		}
+		nav ul a:hover{
+			background-color:rgba(0, 0, 0, 0) !important;
+		}
+		.kupon{
+			display:unset !important;
+		}
+		.profile-photo{
+			width:50px;
+			border-radius:100%;
+			border:3px solid #191919;
+			margin-top:10px;
+		}
+		.coupon{
+			background-color:#F1E8B8;
+			border-radius:10px;
+			display:unset;
+			padding:16px 26px 4px 10px;
+			margin-right: 10px;
+			border:1px solid #191919;
+		}
+		.coupon:hover{
+			background-color:#F1E8B8 !important;
+		}
+		.coupon b{
+			color:#191919;
+			position:absolute;
+			margin-top:-2px;
+			margin-left:4px;
+		}
+		.sidebar{
+			border-right:1px solid #191919;
+			position:fixed;
+			height:100%;
+			padding:0px 32px !important;
+		}
+		.sidebar-admin{
+			border-right:1px solid #D8E9A8;
+			position:fixed;
+			height:100%;
+			padding:0px 32px !important;
+		}
+		.logout{
+			border:1px solid #191919;
+			width:auto;
+			margin-top:228px;
+			border-radius:12px;
+			padding:10px;
+		}
+		.btn-logout{
+			color:#191919;
+		}
+		.logout-admin{
+			border:1px solid #D8E9A8;
+			width:auto;
+			margin-top:162px;
+			border-radius:12px;
+			padding:10px;
+		}
+		.btn-logout-admin{
+			color:#fff;
+		}
+		.navbar{
+			position:fixed;
+			right:0px !important;
+		}
+		.menu-sidebar{
+			margin-top:34px;
+		}
+		.menu-sidebar ul li{
+			padding:16px;
+			border-radius:20px;
+			margin-bottom:10px;
+			text-align:left;
+		}
+		.menu-sidebar ul li a{
+			color:#191919 !important;
+		}
+		.time{
+			color:#191919;
+			margin-left:32px;
+		}
+		.time-admin{
+			color:#fff;
+			margin-left:32px;
+		}
+		.activated{
+			background-color:#F1E8B8 !important;
+			border: 1px solid #191919;
+		}
+		.activated a{
+			color:#191919 !important;
+			font-weight:bold;
+		}
+		.activated-admin{
+			background-color:#9CD08F !important;
+			border: 1px solid #D8E9A8;
+		}
+		.activated-admin a{
+			color:#191919 !important;
+			font-weight:bold;
+		}
+		.dashboard{
+			margin-left:20px !important;
+		}
+		.dashboard-content{
+			margin-left:100px;
+			margin-top:10px;
+			padding-right:32px !important;
+		}
+		.dashboard-content h4{
+			font-weight: bolder;
+		}
+		.dashboard-content h6{
+			font-weight:lighter;
+			color:#777;
+		}
+		.information{
+			background-color:#eeeeee;
+			border-left:1px solid #191919;
+			position:fixed;
+			right:0;
+			height:100%;
+			width:24%;
+			margin-top:-18px;
+			padding:40px 20px;
+		}
+		.information b{
+			font-size:24px;
+			margin-top:100px;
+		}
+		.ongoing{
+			background-color:#B3ECBE;
+			border-radius:24px;
+			padding:16px 20px;
+			border:1px solid #191919;
+		}
+		.bus{
+			margin-top:10px;
+		}
+		.btn-ongoing{
+			background-color: #191919;
+			color:white;
+			width:100%;
+			display:inline-block;
+			text-align:center;
+			margin-top:10px;
+			border-radius:12px;
+			padding:10px;
+		}
+		.tutor{
+			background-color:#E6B2AE;
+			border-radius:24px;
+			padding:16px 20px;
+			border:1px solid #191919;
+		}
+		.btn-tutor{
+			background-color: #191919;
+			color:white;
+			width:100%;
+			display:inline-block;
+			text-align:center;
+			margin-top:10px;
+			border-radius:12px;
+			padding:10px;
+		}
+		.help{
+			background-color:#B9F0DF;
+			border-radius:24px;
+			padding:16px 20px;
+			border:1px solid #191919;
+		}
+		.btn-help{
+			background-color: #191919;
+			color:white;
+			width:100%;
+			display:inline-block;
+			text-align:center;
+			margin-top:4px;
+			border-radius:12px;
+			padding:10px;
+		}
+		.input-form{
+			margin-top:160px;
+		}
+		.input-form-register{
+			margin-top:45px;
+		}
+		.login-logo{
+			width:160px;
+		}
+		.login-banner{
+			background-color:#7EB09B;
+			position:fixed;
+			height:100%;
+			padding:20px 30px !important;
+		}
+		.login-banner b{
+			position:fixed;
+			bottom:0;
+			left:0;
+			margin-left:38px;
+			margin-bottom:24px;
+		}
+		.admin-login-banner{
+			background-color:#505A5B;
+			position:fixed;
+			height:100%;
+			padding:20px 30px !important;
+		}
+		.admin-login-banner b{
+			position:fixed;
+			bottom:0;
+			color:white;
+			left:0;
+			margin-left:38px;
+			margin-bottom:24px;
+		}
+		.login-form{
+			background-color:#F8F7FF;
+			position:fixed;
+			right:0 !important;
+			height:100%;
+			padding:20px 100px !important;
+			border-left:2px solid #191919;
+		}
+		.input-login{
+			margin-top:24px !important;
+		}
+		input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label{
+			color:#7EB09B !important;
+		}
+		input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]){
+			border-bottom:1px solid #7EB09B !important;
+			box-shadow:0 1px 0 0 #7EB09B !important;
+		}
+		textarea.materialize-textarea:focus:not([readonly]), input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus{
+			border-bottom:1px solid #191919 !important;
+			box-shadow: 0 1px 0 0 #191919 !important;
+		}
+		.submit-login{
+			text-transform:capitalize !important;
+			padding:0 20px !important;
+			height:54px !important;
+			line-height:48px !important;
+			border-radius:12px !important;
+			width:100% !important;
+			margin-top:10px;
+			background-color:#A4E1C7 !important;
+			border:2px solid #191919 !important;
+			font-weight:bolder;
+			color:#191919 !important;
+			font-size:16px !important;
+		}
+		.submit-kelogin{
+			text-transform:capitalize !important;
+			padding:0 20px !important;
+			height:50px !important;
+			line-height:45px !important;
+			border-radius:12px !important;
+			margin-top:6px;
+			background-color:#F8F7FF !important;
+			border:2px solid #191919 !important;
+			font-weight:bolder;
+			color:#191919 !important;
+			font-size:16px !important;
+			box-shadow: none !important;
+		}
+		.submit-register{
+			text-transform:capitalize !important;
+			padding:0 20px !important;
+			height:50px !important;
+			line-height:44px !important;
+			border-radius:12px !important;
+			width:71% !important;
+			margin-top:6px;
+			background-color:#A4E1C7 !important;
+			border:2px solid #191919 !important;
+			font-weight:bolder;
+			color:#191919 !important;
+			font-size:16px !important;
+		}
+		.tidakadaakun{
+			margin-top:20px !important;
+		}
+		.tidakadaakun b{
+			color:#191919;
+		}
+		.tidakadaakun a{
+			color:#7EB09B;
+			font-weight:bolder;
+		}
+		.nemdua{
+			font-size:16px !important;
+			font-weight:bolder;
+			margin-top:5px;
+		}
+		.mata{
+			font-size:16px !important;
+			font-weight:bolder;
+			margin-top:5px;
+			margin-left:10px;
+			cursor:pointer;
+		}
+		.listjadwal{
+			margin-top:30px;
+		}
+		.btn-halte{
+			margin-right:16px;
+			margin-bottom:16px;
+			text-transform:none !important;
+			background-color:#F1E8B8 !important;
+			color:#191919 !important;
+			border-radius:12px !important;
+			padding:0px 24px !important;
+			height:50px !important;
+			line-height:44px !important;
+			font-weight:bolder;
+			border:1px solid #191919 !important;
+		}
+		#modal1{
+			color:#191919 !important;
+			border-radius:24px !important;
+		}
+		#modal01{
+			color:#191919 !important;
+			border-radius:24px 24px 0px 0px !important;
+		}
+		#modal2{
+			color:#191919 !important;
+			border-radius:24px !important;
+		}
+		#modal3{
+			color:#191919 !important;
+			border-radius:24px !important;
+		}
+		#modal4{
+			color:#191919 !important;
+			border-radius:24px !important;
+		}
+		#modal5{
+			color:#191919 !important;
+			border-radius:24px !important;
+		}
+		#modal6{
+			color:#191919 !important;
+			border-radius:24px !important;
+		}
+		#modal7{
+			color:#191919 !important;
+			border-radius:24px !important;
+		}
+		.modal1kotak{
+			padding:16px 30px !important;
+		}
+		.btn-kupon{
+			width:200px !important;
+			background-color:#F1E8B8 !important;
+			border-radius:12px !important;
+			border: 1px solid #191919 !important;
+			height:200px !important;
+			color: #191919 !important;
+			padding:20px 20px 0px 20px !important;
+			text-transform:none !important;
+		}
+		.logokupon{
+			font-size:75px !important;
+		}
+		.btn-kupon b{
+			font-size:18px;
+		}
+		.notekupon{
+			width:500px;
+		}
+		.btn-pos{
+			width:75%;
+			border-radius:24px !important;
+			margin-top:30px;
+			margin-left:15px;
+			text-transform:none !important;
+			font-size:18px !important;
+			border:1px solid #191919 !important;
+			background-color:#A4E1C7 !important;
+			color:#191919 !important;
+			padding:10px !important;
+			height:60px !important;
+		}
+		.img-rute{
+			width:200px;
+		}
+		.btn-file{
+			background-color: #F1E8B8 !important;
+			color:#191919 !important;
+			border-radius:12px !important;
+			border: 1px solid #191919 !important;
+		}
+		::placeholder{
+			color:#9e9e9e !important;
+		}
+		.add-coupon{
+			background-color:#fff !important;
+			color:#333 !important;
+			text-transform:capitalize !important;
+			padding:0 20px !important;
+			border-radius:12px !important;
+			box-shadow:none !important;
+			height:46px !important;
+			line-height:46px !important;
+			margin-left:20px;
+		}
+		.use-coupon{
+			border:1px solid #fff !important;
+			background-color:transparent !important;
+			color:#fff !important;
+			text-transform:capitalize !important;
+			padding:0 20px !important;
+			border-radius:12px !important;
+			box-shadow:none !important;
+			height:46px !important;
+			line-height:46px !important;
+			margin-left:20px;
+		}
+		.coupon-table{
+			color:#fff !important;
+			width:96%;
+			margin-top:30px;
+		}
+		.coupon-table tr{
+			border-bottom:1px solid #D8E9A8;
+		}
+		.delete-coupon{
+			color:#fff;
+			font-weight:bold;
+			text-decoration:underline;
+		}
+		.btn-details-information{
+			color:#191919;
+			padding:4px;
+			background-color:#92D6E6;
+			height:32px;
+			border-radius:4px;
+			display:inline-block;
+		}
+		.btn-edit-information{
+			color:#191919;
+			padding:4px;
+			background-color:#E9D18E;
+			height:32px;
+			border-radius:4px;
+			display:inline-block;
+		}
+		.btn-delete-information{
+			color:#191919;
+			padding:4px;
+			background-color:#E18A6E;
+			height:32px;
+			border-radius:4px;
+			display:inline-block;
+		}
+		.edit-data-information{
+			background-color:#fff !important;
+			color:#333 !important;
+			border-radius:12px !important;
+			text-transform:capitalize !important;
+			padding:0px 20px !important;
+			height:40px !important;
+			line-height:40px !important;
+			margin-left:396px;
+		}
+		.edit-data-user{
+			background-color:#191919 !important;
+			color:#fff !important;
+			box-shadow:none !important;
+			border-radius:12px !important;
+			text-transform:capitalize !important;
+			padding:0px 20px !important;
+			height:40px !important;
+			line-height:40px !important;
+			margin-left:542px;
+		}
+		.edit-data-admin{
+			background-color:#fff !important;
+			color:#191919 !important;
+			box-shadow:none !important;
+			border-radius:12px !important;
+			text-transform:capitalize !important;
+			padding:0px 20px !important;
+			height:40px !important;
+			line-height:40px !important;
+			margin-left:542px;
+		}
+		.editlagi-information{
+			background-color:#fff !important;
+			color:#333 !important;
+			border-radius:12px !important;
+			text-transform:capitalize !important;
+			padding:0px 20px !important;
+			height:44px !important;
+			line-height:40px !important;
+			margin-left:434px;
+		}
+		.editlagi-user{
+			background-color:#191919 !important;
+			color:#fff !important;
+			border-radius:12px !important;
+			text-transform:capitalize !important;
+			padding:0px 20px !important;
+			height:44px !important;
+			line-height:40px !important;
+			margin-left:518px;
+			cursor:pointer;
+		}
+		.editlagi-admin{
+			background-color:#fff !important;
+			color:#191919 !important;
+			border-radius:12px !important;
+			text-transform:capitalize !important;
+			padding:0px 20px !important;
+			height:44px !important;
+			line-height:40px !important;
+			margin-left:518px;
+			cursor:pointer;
+		}
+		.btn-kirim{
+			background-color:#191919 !important;
+			color:#fff !important;
+			border-radius:12px !important;
+			text-transform:capitalize !important;
+			padding:0px 20px !important;
+			height:44px !important;
+			line-height:40px !important;
+			cursor:pointer;
+		}
+		.textarea-dark .character-counter{
+			color:#fff !important;
+		}
+		.darkkk:focus{
+			border-bottom:1px solid #fff !important;
+			box-shadow: 0 1px 0 0 #fff !important;
+		}
+		.btn-buat{
+			background-color:#191919 !important;
+			color:#fff !important;
+			border-radius:12px !important;
+			padding:0px 30px !important;
+			height:44px !important;
+			line-height:40px !important;
+			margin-top:-10px !important;
+			margin-right:16px !important;
+		}
